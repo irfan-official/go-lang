@@ -25,4 +25,13 @@ func main() {
 	fmt.Println(judge1)
 	fmt.Println(judge2)
 	fmt.Println(judge3)
+
+	results := Check(Myne{
+		Name: "Irfan",
+		Age: 24,
+	})
+
+	fmt.Println(results.Age)
+	fmt.Println(results.Name)
 }
+
