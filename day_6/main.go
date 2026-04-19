@@ -33,5 +33,11 @@ func main() {
 
 	fmt.Println(results.Age)
 	fmt.Println(results.Name)
+
+	var mao struct{
+		Name string
+	} = struct{Name string}{Name: "Irfan"}
+
+	fmt.Println(mao)
 }
 
