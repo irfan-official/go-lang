@@ -19,6 +19,7 @@ var st1 Student = Student{
 	Role: 12,
 }
 
+// method
 func (st1 Student) multiplereturn(num1, num2 int) (int, error) {
 	if num2 == 0 {
 		return 0, fmt.Errorf("error occur")

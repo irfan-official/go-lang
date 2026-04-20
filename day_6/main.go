@@ -39,5 +39,15 @@ func main() {
 	} = struct{Name string}{Name: "Irfan"}
 
 	fmt.Println(mao)
+
+	pgDB := PostgresDatabase{
+		Database: Database{
+			HostName: "hostname1",
+		},
+		CPULimit: "100m",
+		MemoryLimit: "4GB",
+	}
+
+	fmt.Printf("%v %T", pgDB, pgDB)
 }
 

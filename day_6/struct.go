@@ -10,3 +10,16 @@ type Database struct{
 }
 
 // embedings
+type PostgresDatabase struct {
+	Database
+	Version	string
+	MasterDBCount int
+	CPULimit string
+	MemoryLimit string
+}
+
+type simple struct{
+	Check bool
+}
+
+
