@@ -1,8 +1,18 @@
 package main
 
-func main(){
-	test()
+import "fmt"
 
-	maker()
+var name string = "shadow"
+
+func main() {
+	// test()
+
+	mao := "kao"
+
+	val := *(&mao)
+
+	fmt.Printf(val)
+
+	// maker()
 
 }

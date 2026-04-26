@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"my-app/test"
 )
 
 func main() {
@@ -44,10 +45,12 @@ func main() {
 		Database: Database{
 			HostName: "hostname1",
 		},
-		CPULimit: "100m",
+		CPULimit: "100m",``
 		MemoryLimit: "4GB",
 	}
 
 	fmt.Printf("%v %T", pgDB, pgDB)
+
+	test
 }
 
